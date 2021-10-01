@@ -1,0 +1,12 @@
+.plant-list-container {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-around;
+}
+
+.plant-list-item {
+    width: 40rem;
+    flex: auto;
+    position: relative;
+    margin: 1rem;
+}
