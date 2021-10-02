@@ -1,4 +1,4 @@
-Vaccinium Macrocarpon (Cranberry)
+# Vaccinium Macrocarpon (Cranberry)
 Die aus Nordamerika stammende sogenannte Großfrüchtige Moosbeere bevorzugt sandig bis moorige Standorte, auf denen sonst nicht viel wachsen will. Am liebsten hat sie humusreichen, kalkarmen Torfboden, der mit Wald- oder Rindenhumus durchmischt ist. Auch eine Mischung aus Torf, Sand und Gartenerde funktioniert gut. Die Pflanze wird im Frühjahr oder Herbst gepflanzt mit einem Abstand von ca. 30 Zentimetern zueinander. Im September/Oktober sind die Beeren reif, zum Reifetest kann man die Früchte einfach aufschneiden. Ist das Fruchtfleisch noch grün, ist die Beere noch nicht reif.
 https://www.mein-schoener-garten.de/sites/default/files/styles/achor_navigation_l/public/cranberry-aufmacher-2696193-blp-lubera.jpg?h=c3bf4dd4&itok=jFBpmFPq
 https://www.mein-schoener-garten.de/pflanzen/obst/cranberry-grossfruechtige-moosbeere
