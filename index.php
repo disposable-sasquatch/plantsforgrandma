@@ -4,9 +4,9 @@
  * @author Lilfaen
  */
 
-require "views/header.php";
+require "src/views/header.php";
 
-$dir = "data";
+$dir = "data/de_DE";
 $files = array_diff(scandir($dir), array('.', '..'));
 
 ?>
@@ -31,4 +31,4 @@ $files = array_diff(scandir($dir), array('.', '..'));
     </div>
 
 <?php
-require "views/footer.php";
+require "src/views/footer.php";
