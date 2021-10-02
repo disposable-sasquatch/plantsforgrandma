@@ -15,9 +15,22 @@ $files = array_diff(scandir($dir), array('.', '..'));
 
         <?php
         foreach($files as $file):
-            $contents = file_get_contents($dir . "/" . $file);
-            $parsedown = new Parsedown();
-            echo $parsedown->text($contents);
+        $contents = file_get_contents($dir . "/" . $file);
+        $path_parts = pathinfo($dir . '/' . $file);
+        ?>
+
+            <div class="plant-list-item">
+                <?php
+                $parsedown = new Parsedown();
+                echo $parsedown->text($contents);
+                ?>
+                <!--
+                <div class="plant-list-img">
+                    <img src="<?php echo 'data/img/' . $path_parts['filename'] . 'jpg' ?>" >
+                </div>
+                -->
+            </div>
+        <?php
         endforeach;
         ?>
 
