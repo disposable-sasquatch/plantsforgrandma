@@ -3,7 +3,7 @@
 /**
  * @author Lilfaen
  */
-
+include('src/parsedown.php');
 require "src/views/header.php";
 
 $dir = "data/de_DE";
@@ -15,15 +15,21 @@ $files = array_diff(scandir($dir), array('.', '..'));
 
         <?php
         foreach($files as $file):
-            $filecontent = file_get_contents($dir . "/" . $file);
-            $filecontent = explode("\n", $filecontent);
-            ?>
+        $contents = file_get_contents($dir . "/" . $file);
+        $path_parts = pathinfo($dir . '/' . $file);
+        ?>
 
             <div class="plant-list-item">
-                <h2><?php echo $filecontent[0] ?></h2>
-                <p><?php echo $filecontent[1] ?></p>
+                <?php
+                $parsedown = new Parsedown();
+                echo $parsedown->text($contents);
+                ?>
+                <!--
+                <div class="plant-list-img">
+                    <img src="<?php echo 'data/img/' . $path_parts['filename'] . 'jpg' ?>" >
+                </div>
+                -->
             </div>
-
         <?php
         endforeach;
         ?>
